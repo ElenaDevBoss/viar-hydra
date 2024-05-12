@@ -1,0 +1,11 @@
+.DS_Store
+.vscode
+.idea/
+.idea/*
+npm-debag.*
+
+dist/
+gulp/
+gulpfile.js
+node_modules/
+package-lock.json
