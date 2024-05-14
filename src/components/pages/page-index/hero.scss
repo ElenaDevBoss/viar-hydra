@@ -1,6 +1,11 @@
 .hero {
-    position: relative;
-    @extend %font-fz-12;
+  @extend %font-fz-12;
+
+  &__bg-decor {
+    position: absolute;
+    z-index: -3;
+    top: 0;
+  }
   &__inner {
     margin-top: 146px;
   }
@@ -71,10 +76,4 @@
     @extend %font-fz-14;
     color: #fff;
   }
-}
-.hero::before {
-  content: url('../images/hero-bg.png');
-  position: absolute;
-  bottom: 90px;
-  z-index: -3;
 }
