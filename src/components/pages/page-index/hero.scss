@@ -1,0 +1,80 @@
+.hero {
+    position: relative;
+    @extend %font-fz-12;
+  &__inner {
+    margin-top: 146px;
+  }
+
+  &__content-box {
+    max-width: 465px;
+  }
+
+  &__title {
+    @extend %font-fz-40;
+    color: #fff;
+    line-height: normal;
+    margin-bottom: 36px;
+    strong {
+      @extend %gradient-color;
+    }
+  }
+
+  &__text {
+    @extend %font-fz-16;
+    color: #fff;
+    line-height: 20px;
+  }
+
+  &__btn-box {
+    display: flex;
+    align-items: center;
+    margin-top: 83px;
+  }
+
+  &__arrow {
+    margin-left: 40px;
+  }
+
+  &__contacts-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 157px;
+    border-radius: 90px;
+    background: radial-gradient(#3a3456 0%, #211e2e 100%);
+    padding: 26px 53px;
+  }
+
+  &__contacts-item {
+    padding: 25px 50px 25px 0;
+    border-right: 1px solid rgba(192, 183, 232, 0.33);
+    color: $accent;
+    display: flex;
+    align-items: center;
+  }
+  &__contacts-item:last-child {
+    padding-right: 0;
+    border-right: none;
+  }
+
+  &__contacts-descript {
+    margin-left: 29px;
+  }
+
+  &__contacts-title {
+    @extend %font-fz-24;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+  &__contacts-text {
+    @extend %font-fz-14;
+    color: #fff;
+  }
+}
+.hero::before {
+  content: url('../images/hero-bg.png');
+  position: absolute;
+  bottom: 90px;
+  z-index: -3;
+}

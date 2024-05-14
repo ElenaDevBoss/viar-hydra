@@ -6,15 +6,13 @@
     margin-left: 38px;
   }
   &__link {
-    border: 2px solid #fff;
-    padding: 16px 36px;
-    border-radius: 40px;
-    @extend %bold-12;
+    @extend %link-and-button-12;
+    transition: 0.5s all;
   }
 
   &__link:hover {
-    color: #343045;
-    border: 2px solid #302c42;
-    background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+    color: #fff;
+    border: 2px solid #fff;
+    background: #302c42;
   }
 }

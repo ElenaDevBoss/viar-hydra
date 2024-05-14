@@ -1,6 +1,53 @@
-%bold-12 {
+%link-and-button-12 {
   font-size: 12px;
   font-family: Montserrat;
-  color: #fff;
+  color: #343045;
   font-weight: bold;
+  border: 2px solid #302c42;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  padding: 16px 36px;
+  border-radius: 40px;
+}
+
+%gradient-bg {
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+}
+%gradient-color {
+  background: linear-gradient(90deg, #c0b7e8 0%, #8176af 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+%font-fz-12 {
+  font-size: 12px;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+%font-fz-14 {
+  font-size: 14px;
+  font-weight: 400;
+}
+%font-fz-16 {
+  font-size: 16px;
+  font-weight: 400;
+}
+%font-fz-24 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+%font-fz-40 {
+  font-size: 40px;
+  font-weight: bold;
+}
+%font-fz-46 {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+%arrow-decor {
+  width: 157px;
+  height: 3px;
+  background: $accent;
 }
