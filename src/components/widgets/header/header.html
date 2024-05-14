@@ -1,14 +1,31 @@
 <header class="header">
   <div class="container">
     <div class="header__inner">
-      <ul class="header__list">
-        <li class="header__list-item">
-          <a class="header__item-link" href="./index.html">Home</a>
-        </li>
-        <li class="header__list-item">
-          <a class="header__item-link" href="./about.html">About</a>
-        </li>
-      </ul>
+      <a class="header__links-logo" href="#">
+        <img class="header__img-logo" src="images/logo.png" alt="logo" />
+        <img
+          class="header__img-logo"
+          src="images/site-name.png"
+          alt="site-name"
+        />
+      </a>
+      <!-- <nav class="header__menu-nav"> -->
+        <ul class="header__list">
+          <li class="header__list-item">
+            <a class="header__item-link" href="./index.html">Home</a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__item-link" href="./about.html">Services</a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__item-link" href="./about.html">Technologies</a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__item-link" href="./about.html">How to</a>
+          </li>
+        </ul>
+      <!-- </nav> -->
+      @@include('../../button/button.html')
     </div>
   </div>
 </header>

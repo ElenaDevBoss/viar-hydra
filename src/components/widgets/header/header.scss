@@ -1,13 +1,47 @@
 .header {
+  min-height: 103px;
+  padding-top: 50px;
+
   &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__links-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  &__img-logo:nth-child(1) {
+    width: 102px;
+    height: 103px;
+  }
+
+  &__img-logo:nth-child(2) {
+    margin-left: 15px;
+    width: 76px;
+    height: 46px;
+  }
+
+  &__menu-nav {
   }
 
   &__list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 62px;
   }
 
   &__list-item {
+    margin-left: 41px
   }
 
+  &__list-item:nth-child(1) {
+    margin-left: 0;
+  }
   &__item-link {
+    @extend %bold-12;
   }
 }
+

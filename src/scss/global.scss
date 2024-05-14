@@ -5,8 +5,11 @@
 }
 
 body {
+  max-width: 1440px;
   font-family: sans-serif;
   font-weight: 400;
+  background-color: #302c42;
+  margin: 0 auto;
 }
 
 .wrapper {
@@ -20,4 +23,7 @@ body {
 }
 
 .container {
+  max-width: 1272px;
+  padding: 0 20px;
+  margin: 0 auto;
 }

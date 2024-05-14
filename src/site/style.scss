@@ -1,6 +1,17 @@
+// Global styles
 @import '../scss/reset.scss';
+@import '../scss/normalize.scss';
 @import '../scss/fonts.scss';
 @import '../scss/global.scss';
 
+// Extends style
+@import '../scss/extends.scss';
+
+// Component styles
+@import '../components/button/button.scss';
+
+// Widget styles
 @import '../components/widgets/header/header.scss';
 @import '../components/widgets/footer/footer.scss';
+
+// Page styles

@@ -4,6 +4,8 @@
 .idea/*
 npm-debag.*
 
+
+assets/
 dist/
 gulp/
 gulpfile.js
