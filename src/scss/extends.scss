@@ -1,6 +1,6 @@
 %link-and-button-12 {
   font-size: 12px;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   color: #343045;
   font-weight: bold;
   border: 2px solid #302c42;
@@ -20,7 +20,6 @@
 
 %font-fz-12 {
   font-size: 12px;
-  font-family: Montserrat;
   font-weight: bold;
 }
 
@@ -31,10 +30,15 @@
 %font-fz-16 {
   font-size: 16px;
   font-weight: 400;
+  line-height: 26px;
 }
 %font-fz-24 {
   font-size: 24px;
   font-weight: bold;
+}
+%font-fz-36 {
+  font-size: 36px;
+  font-weight: 300;
 }
 
 %font-fz-40 {

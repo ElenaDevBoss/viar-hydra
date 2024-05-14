@@ -36,6 +36,7 @@
 
   &__list-item {
     margin-left: 41px;
+    height: 20px;
   }
 
   &__list-item:nth-child(1) {
@@ -51,5 +52,12 @@
   &__item-link:hover {
     border-bottom: 1px solid #fff;
   }
-}
 
+  &__btn-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn-link:nth-child(2) {
+    margin-left: 38px;
+  }
+}

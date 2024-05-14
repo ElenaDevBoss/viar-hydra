@@ -1,5 +1,5 @@
 .hero {
-  @extend %font-fz-12;
+  font-family: Montserrat, sans-serif;
 
   &__bg-decor {
     position: absolute;
@@ -20,6 +20,7 @@
     line-height: normal;
     margin-bottom: 36px;
     strong {
+      display: inline-block;
       @extend %gradient-color;
     }
   }
@@ -27,7 +28,6 @@
   &__text {
     @extend %font-fz-16;
     color: #fff;
-    line-height: 20px;
   }
 
   &__btn-box {

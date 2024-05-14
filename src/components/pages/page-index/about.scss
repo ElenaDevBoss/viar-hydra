@@ -1,0 +1,56 @@
+.about {
+  margin-top: 94px;
+  font-family: Montserrat, sans-serif;
+  &__inner {
+  }
+  
+  &__content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  &__content:nth-child(2) {
+    margin-top: 101px;
+  }
+  &__content-descript {
+    max-width: 630px;
+    .about__text {
+      margin: 29px 0;
+    }
+  }
+  &__title {
+    color: #fff;
+    font-weight: 300;
+    @extend %font-fz-36;
+    line-height: 50px;
+
+    & strong {
+      width: 298px;
+      font-weight: bold;
+    }
+
+  }
+  
+  .decor-box {
+    margin-right: auto;  
+  }
+
+  &__title:nth-child(2) {
+    & strong {
+      width: 298px;
+      font-weight: bold;
+    }
+  }
+
+  &__text {
+    color: #fff;
+    @extend %font-fz-16;
+    max-width: 650px;
+  }
+
+  &__img {
+    width: 524px;
+    height: 527px;
+  }
+}

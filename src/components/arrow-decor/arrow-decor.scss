@@ -1,0 +1,10 @@
+.decor-box {
+  display: flex;
+  align-items: center;
+  &__decor {
+    display: block;
+    width: 157px;
+    height: 3px;
+    background-color: #c0b7e8;
+  }
+}
