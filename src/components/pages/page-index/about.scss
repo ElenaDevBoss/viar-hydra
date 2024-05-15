@@ -3,9 +3,8 @@
   font-family: Montserrat, sans-serif;
   &__inner {
   }
-  
+
   &__content {
-    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -29,11 +28,10 @@
       width: 298px;
       font-weight: bold;
     }
-
   }
-  
+
   .decor-box {
-    margin-right: auto;  
+    margin-right: auto;
   }
 
   &__title:nth-child(2) {
