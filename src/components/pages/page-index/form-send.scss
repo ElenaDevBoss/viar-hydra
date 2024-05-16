@@ -1,6 +1,7 @@
 .form-send {
   &__inner {
     padding: 90px 105px;
+    border-radius: 100px;
     background: radial-gradient(#403a5f 0%, #211e2e 100%);
   }
 
@@ -69,5 +70,10 @@
   &__input-area::placeholder {
     @extend %font-fz-14;
     color: #fff;
+  }
+
+  &__btn-box {
+    display: flex;
+    justify-content: center;
   }
 }
