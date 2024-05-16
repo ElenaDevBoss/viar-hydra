@@ -1,0 +1,105 @@
+.process {
+  margin: 69px 0 112px;
+  &__inner {
+  }
+
+  &__descript {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    .decor-box {
+      margin-right: auto;
+      margin-left: 10px;
+    }
+  }
+
+  &__descript {
+  }
+
+  &__title {
+    color: #fff;
+    font-weight: 300;
+    @extend %font-fz-36;
+    line-height: 50px;
+    & strong {
+      width: 306px;
+      font-weight: bold;
+    }
+  }
+
+  &__text {
+    width: 650px;
+    @extend %font-fz-16;
+    color: #fff;
+  }
+
+  &__list-steps {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 143px;
+    padding: 0 54px;
+    // background: url('../images/process-bg.png') no-repeat;
+    // background-size: auto;
+  }
+
+  &__list-img-bg {
+    position: absolute;
+    right: -120px;
+    bottom: 110px;
+    z-index: -1;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // width: 187px;
+  }
+
+  &__item-num-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__num {
+    position: relative;
+    font-size: 64px;
+    font-weight: bold;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 159px;
+    height: 159px;
+    background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+    color: #343045;
+  }
+
+  &__num::after {
+    position: absolute;
+    content: '';
+    width: 198px;
+    height: 199px;
+    background: rgba(13, 13, 13, 0.32);
+    border-radius: 100%;
+  }
+
+  &__item-title {
+    position: relative;
+    @extend %font-fz-24;
+    color: #fff;
+    margin-top: 25px;
+    line-height: 36px;
+  }
+  &__item-title::before {
+    position: absolute;
+    content: url('../images/arrow.png');
+    width: 27px;
+    height: 22px;
+    left: -50px;
+  }
+}

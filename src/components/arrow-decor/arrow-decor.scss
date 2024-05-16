@@ -2,9 +2,11 @@
   display: flex;
   align-items: center;
   &__decor {
+    position: relative;
+    left: 1px;
     display: block;
     width: 157px;
     height: 3px;
-    background-color: #c0b7e8;
+    background-color: #c0b7e8d4;
   }
 }
