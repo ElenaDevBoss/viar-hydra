@@ -23,11 +23,12 @@
 
 // Widget and sections styles
 @import '../components/widgets/header/header.scss';
-@import '../components/widgets/footer/footer.scss';
+
 @import '../components/pages/page-index/hero.scss';
 @import '../components/pages/page-index/about.scss';
 @import '../components/pages/page-index/services.scss';
 @import '../components/pages/page-index/technologies.scss';
 @import '../components/pages/page-index/process.scss';
 @import '../components/pages/page-index/form-send.scss';
-@import '../components/pages/page-index/footer.scss';
+
+@import '../components/widgets/footer/footer.scss';
