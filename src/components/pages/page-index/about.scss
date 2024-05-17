@@ -1,6 +1,13 @@
 .about {
   margin-top: 94px;
   &__inner {
+    position: relative;
+  }
+
+  &__bg {
+    position: absolute;
+    transform: translate(-9%, 31%);
+    z-index: -1;
   }
 
   &__content {

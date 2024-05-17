@@ -1,6 +1,13 @@
 .services {
   margin-top: 111px;
   &__inner {
+    position: relative;
+  }
+
+  &__bg {
+    position: absolute;
+    transform: translate(-7%, 28%);
+    z-index: -1;
   }
 
   &__descript {
